@@ -3,23 +3,23 @@ body {
 }
 
 .container {
-  display: flex; /* apply flexbox */
-  flex-wrap: wrap; /* allow items to wrap onto next line */
-  justify-content: space-around; /* space items evenly */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .profile {
-  width: 30%; /* adjust size as needed */
-  margin: 1em; /* space around each item */
+  width: 90%;
+  margin: 1em;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  box-sizing: border-box; /* ensure padding and border are included in the item's width */
+  box-sizing: border-box;
 }
 
 .profile-img {
-  font-size: 100px; /* adjust size as needed */
-  color: yellow; /* adjust color as needed */
+  font-size: 100px;
+  color: yellow;
   margin-right: 20px;
 }
 
@@ -35,4 +35,16 @@ body {
 .profile-interests,
 .profile-goodtoknow {
   margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .profile {
+    width: 45%;
+  }
+}
+
+@media (min-width: 900px) {
+  .profile {
+    width: 30%;
+  }
 }
