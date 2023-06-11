@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.profile-img {
+  font-size: 100px; /* adjust size as needed */
+  color: yellow; /* adjust color as needed */
+  margin-right: 20px;
+}
+
+.profile-details {
+  overflow: auto;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-interests,
+.profile-goodtoknow {
+  margin-top: 10px;
+}
