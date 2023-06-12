@@ -111,3 +111,8 @@ footer a {
 footer a:hover {
   color: #0056b3;
 }
+
+span.heart {
+  color: red;
+  font-size: 15px;
+}
