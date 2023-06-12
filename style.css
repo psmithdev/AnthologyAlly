@@ -2,6 +2,53 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#navbar {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+#navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+#navbar a:hover {
+  color: #007bff;
+}
+
+#home {
+  text-align: center;
+  padding: 20px;
+}
+
+#home h1 {
+  color: #333;
+}
+
+#home p {
+  color: #666;
+}
+
+#home img {
+  max-width: 100%;
+  height: auto;
+}
+
+#home a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#home a:hover {
+  background-color: #0056b3;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
