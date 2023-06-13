@@ -1,0 +1,11 @@
+How to implement Passwordless authentication in JavaScript and Node.js
+https://dev.to/flippedcoding/implementing-passwordless-authentication-in-node-js-43m0
+
+High-level overview:
+    Generate a unique token: When a user wants to log in, generate a unique token associated with their account. This token will serve as their temporary authentication credential.
+
+    Send the token: Send the generated token to the user via their preferred communication method, such as email or SMS. This step can be implemented using various libraries or services, depending on your requirements.
+
+    Verify the token: When the user receives the token, they can click on a link or input the token in your application. On the server-side, validate the token to ensure its authenticity and determine the associated user account.
+
+    Create a session: If the token is valid, create a session or generate an authentication token for the user, allowing them to access protected resources. You can store this session information in a database or use JSON Web Tokens (JWTs) for stateless authentication.
