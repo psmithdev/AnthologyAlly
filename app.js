@@ -3,9 +3,10 @@ function loadHome() {
   content.innerHTML = `
         <div id="home">
             <h1>Welcome to Anthology Profiles</h1>
-            <p>This website is designed to provide profiles of the residents of Anthology nursing home, 
-               helping families and staff members get to know each other better.</p>
-            <img src="images/nursing_home.jpg" alt="A picture of Anthology nursing home">
+            <p>This website is designed to provide profiles of the residents of
+            Anthology Senior Living community, helping staff members get to know
+            residents better.</p>
+            <img src="images/nursing_home.jpg" alt="A picture of Anthology Senior Living">
             <a href="#residents" onclick="loadResidents()">Meet our residents</a>
         </div>
     `;
