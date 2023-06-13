@@ -17,25 +17,30 @@ body {
   color: #007bff;
 }
 
-#home {
+#home,
+#residents {
   text-align: center;
   padding: 20px;
 }
 
-#home h1 {
+#home h1,
+#residents h1 {
   color: #333;
 }
 
-#home p {
+#home p,
+#residents p {
   color: #666;
 }
 
-#home img {
+#home img,
+#residents img {
   max-width: 100%;
   height: auto;
 }
 
-#home a {
+#home a,
+#residents a {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -45,7 +50,8 @@ body {
   border-radius: 5px;
 }
 
-#home a:hover {
+#home a:hover,
+#residents a:hover {
   background-color: #0056b3;
 }
 
@@ -56,32 +62,27 @@ body {
 }
 
 .profile {
-  width: 90%;
-  margin: 1em;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-sizing: border-box;
+  margin: 20px;
+  width: 200px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .profile-img {
-  font-size: 100px;
-  color: yellow;
-  margin-right: 20px;
-}
-
-.profile-details {
-  overflow: auto;
+  margin: 15px 0;
+  font-size: 50px;
 }
 
 .profile-name {
-  font-size: 24px;
   font-weight: bold;
+  font-size: 18px;
 }
 
-.profile-interests,
-.profile-goodtoknow {
-  margin-top: 10px;
+.profile-details {
+  padding: 0 10px 10px;
+  text-align: left;
 }
 
 @media (min-width: 600px) {

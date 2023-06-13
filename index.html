@@ -9,112 +9,18 @@
   </head>
   <body>
     <div id="navbar">
-      <a href="#home">Home</a>
-      <a href="#residents">Residents</a>
-      <a href="#contact">Contact</a>
-      <a href="#login">Login</a>
+      <a href="#home" onclick="loadHome()">Home</a>
+      <a href="#residents" onclick="loadResidents()">Residents</a>
+      <a href="#contact" onclick="loadContact()">Contact</a>
+      <a href="#login" onclick="loadLogin()">Login</a>
     </div>
 
-    <div id="home">
-      <h1>Welcome to Anthology Profiles</h1>
-      <p>
-        This website is designed to provide profiles of the residents of
-        Anthology Senior Living community, helping staff members get to know
-        residents better.
-      </p>
-      <img
-        src="images/nursing_home.jpg"
-        alt="A picture of Anthology Senior Living"
-      />
-      <a href="#residents">Meet our residents</a>
+    <div id="content">
+      <!-- Content for each section will be loaded here -->
     </div>
 
-    <div class="container">
-      <div class="profile">
-        <div class="profile-img">&#128512;</div>
-        <div class="profile-details">
-          <div class="profile-name">Harold Smith</div>
-          <div class="profile-interests">
-            <strong>Interests: </strong>Enjoys bird watching, loves reading
-            mystery novels, and a big fan of chess.
-          </div>
-          <div class="profile-goodtoknow">
-            <strong>Good to know: </strong>Early riser, needs a walking cane for
-            long distances.
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="profile-img">&#128512;</div>
-        <div class="profile-details">
-          <div class="profile-name">Edna Johnson</div>
-          <div class="profile-interests">
-            <strong>Interests: </strong>Loves gardening, enjoys classic movies,
-            is fond of baking.
-          </div>
-          <div class="profile-goodtoknow">
-            <strong>Good to know: </strong>Prefers quiet environments, enjoys
-            afternoon naps.
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="profile-img">&#128512;</div>
-        <div class="profile-details">
-          <div class="profile-name">Martin Brown</div>
-          <div class="profile-interests">
-            <strong>Interests: </strong>Enjoys painting, loves jazz music, is a
-            big fan of crossword puzzles.
-          </div>
-          <div class="profile-goodtoknow">
-            <strong>Good to know: </strong>Has a mild allergy to peanuts, loves
-            a good joke.
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="profile-img">&#128512;</div>
-        <div class="profile-details">
-          <div class="profile-name">Ethel Green</div>
-          <div class="profile-interests">
-            <strong>Interests: </strong>Loves knitting, enjoys old musicals, is
-            a big fan of cats.
-          </div>
-          <div class="profile-goodtoknow">
-            <strong>Good to know: </strong>Prefers mornings for activities,
-            needs reading glasses for small text.
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="profile-img">&#128512;</div>
-        <div class="profile-details">
-          <div class="profile-name">Fred Williams</div>
-          <div class="profile-interests">
-            <strong>Interests: </strong>Enjoys photography, loves rock and roll,
-            is a big fan of sudoku.
-          </div>
-          <div class="profile-goodtoknow">
-            <strong>Good to know: </strong>Enjoys discussions on history,
-            prefers tea over coffee.
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="profile-img">&#128512;</div>
-        <div class="profile-details">
-          <div class="profile-name">Dorothy Taylor</div>
-          <div class="profile-interests">
-            <strong>Interests: </strong>Loves poetry, enjoys nature walks, is a
-            big fan of dogs.
-          </div>
-          <div class="profile-goodtoknow">
-            <strong>Good to know: </strong>Enjoys group activities, loves to
-            sing.
-          </div>
-        </div>
-      </div>
-    </div>
+    <script src="app.js"></script>
+
     <footer>
       Made with <span class="heart">❤️</span> by
       <a href="https://psmith.dev" target="_blank">psmithdev</a>
