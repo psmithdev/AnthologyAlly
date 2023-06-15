@@ -10,3 +10,17 @@ High-level overview:
 
     Create a session: If the token is valid, create a session or generate an authentication token for the user, allowing them to access protected resources. You can store this session information in a database or use JSON Web Tokens (JWTs) for stateless authentication.
 
+improvements 6/15/2023
+1. **Add Search Functionality**: This will allow users to search for a resident by name or interests. This could be particularly useful as the number of residents grows.
+
+2. **Add Authentication and User Roles**: This will ensure that only authorized people can edit the profiles. You could have roles such as 'administrator', 'family member', 'staff', etc. each with different levels of access.
+
+3. **Make it more Interactive**: Consider adding features like a message board where family members and staff can leave notes or updates about a resident, or even a calendar for scheduling visits or showing upcoming events.
+
+4. **Accessibility**: Make sure your website is accessible to all users. This includes providing alt text for images, ensuring good contrast for readability, and making sure the site is navigable by keyboard for those who can't use a mouse.
+
+5. **Optimize for Performance**: Make sure your website loads quickly and runs smoothly. This might involve optimizing images, minifying CSS and JavaScript files, and other performance improvements.
+
+6. **Implement Analytics**: Incorporating tools like Google Analytics can provide you with valuable data about how users are interacting with your site, which can help you make informed decisions about future improvements.
+
+7. **Testing**: Carry out extensive testing on various devices and browsers to make sure your website looks good and functions properly in all scenarios.
