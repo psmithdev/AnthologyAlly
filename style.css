@@ -3,6 +3,9 @@ body {
 }
 
 #navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
   background-color: #f8f9fa;
   padding: 10px 0;
 }
@@ -15,6 +18,10 @@ body {
 
 #navbar a:hover {
   color: #007bff;
+}
+
+#search {
+  margin-right: 20px;
 }
 
 #home,

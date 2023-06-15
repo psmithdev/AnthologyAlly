@@ -9,3 +9,4 @@ High-level overview:
     Verify the token: When the user receives the token, they can click on a link or input the token in your application. On the server-side, validate the token to ensure its authenticity and determine the associated user account.
 
     Create a session: If the token is valid, create a session or generate an authentication token for the user, allowing them to access protected resources. You can store this session information in a database or use JSON Web Tokens (JWTs) for stateless authentication.
+
