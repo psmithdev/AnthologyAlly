@@ -4,7 +4,7 @@
 
 AnthologyAlly is an interactive, user-friendly website designed to help staff members at the Anthology Senior Living community connect with and understand the residents they care for. By presenting unique profiles for each resident, we hope to foster closer relationships and build a comprehensive understanding of each individual's interests and lifestyle.
 
-This project was made with love by `psmithdev`.
+This project was made with love by `psmithdev` :)
 
 ## Features
 
