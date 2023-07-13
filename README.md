@@ -36,4 +36,4 @@ Contributions, issues, and feature requests are welcome. Feel free to check [iss
 
 For major changes, please open an issue first to discuss what you would like to change. Ensure to update tests as appropriate.
 
-[Click here to view the deployed application](https://anthology-ally.vercel.app/)
+[Click here to view the deployed application](https://anthology-ally-5rcgdaqd4-psmithdev.vercel.app/)
