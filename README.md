@@ -35,3 +35,5 @@ The AnthologyAlly website is built using:
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/psmithdev/AnthologyAlly/issues) if you want to contribute.
 
 For major changes, please open an issue first to discuss what you would like to change. Ensure to update tests as appropriate.
+
+[Click here to view the deployed application](https://anthology-ally.vercel.app/)
