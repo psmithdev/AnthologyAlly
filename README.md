@@ -6,6 +6,8 @@ AnthologyAlly is an interactive, user-friendly website designed to help staff me
 
 This project was made with :heart: by `psmithdev` :-)
 
+![Recording](https://github.com/psmithdev/AnthologyAlly/assets/69760520/74dde8e6-49b5-408e-92cb-7bef386cb4ab)
+
 ## Features
 
 - A Homepage that provides a warm welcome and brief explanation of the site's purpose.
